@@ -1,0 +1,17 @@
+{
+  "name": "cegid-chat-widget",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Cegid-branded chat widget (frontend) + Express proxy for Dialogflow ES/CX",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "@google-cloud/dialogflow": "^5.5.0",
+    "@google-cloud/dialogflow-cx": "^5.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
